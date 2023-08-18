@@ -86,3 +86,4 @@
   mysql_db:
     name: 'test'
     state: absent
+    login_unix_socket: "{{ mysql_socket }}"
